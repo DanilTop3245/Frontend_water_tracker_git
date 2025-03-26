@@ -12,5 +12,8 @@ export default defineConfig({
       assets: '/src/assets',
     },
   },
+  build: {
+    outDir: 'dist',
+  },
   base: '/Frontend_water_tracker_git/',
 });
