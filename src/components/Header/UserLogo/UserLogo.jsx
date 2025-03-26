@@ -1,7 +1,7 @@
 import { useRef, useState } from 'react';
 import useAuth from '../../../hooks/useAuth';
 
-// import { ClickAwayListener } from '@mui/base/ClickAwayListener';
+import ClickAwayListener from '@mui/material/ClickAwayListener';
 import { ReactComponent as DownArrow } from '../../../assets/header-icons/down-arrow.svg';
 import getFirstLetter from '../../../helpers/getFirstLetter';
 
